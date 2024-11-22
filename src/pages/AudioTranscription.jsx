@@ -22,6 +22,7 @@ const AudioTranscription = () => {
     };
   }, []);
 
+  //TO START RECORDING
   const startRecording = async () => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
